@@ -1,0 +1,13 @@
+	
+   57  git init : Initializes local git repository.
+   58  yum install git
+   59  git init : : Initializes the directory as local git repository
+   63  git status : Checks the current git status
+   65  git add linuxcommands.txt : add the files from untracked area to tracked area or commit area.
+   66  git status
+   67  git commit -m"My First Commit" : commits or saves files to local repository
+   68  git status
+   69  git remote add origin https://github.com/pdjadhav26/devops_data.git : This will create a link between local reposiroty and remote github repository.
+   70  git status
+   71  git push -u origin master  : This will push the local repository contents to remote github repository
+
