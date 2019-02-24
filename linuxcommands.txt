@@ -1,0 +1,61 @@
+    1  ssh-keygen -t rsa
+    2  cd .ssh/
+    3  ll
+    4  ping 172.31.85.87
+    5  ping 3.91.196.52
+    6  ssh 3.91.196.52
+    7  vim /root/awsdemo.pem
+    8  vi /root/awsdemo.pem
+    9  ls -ld /root/awsdemo.pem
+   10  chmod 400 /root/awsdemo.pem
+   11  ssh-copy-id -i /root/awsdemo.pem ec2-user@3.91.196.52
+   12  cd
+   13  ll
+   14  cat awsdemo.pem 
+   15  ssh-copy-id -i /root/awsdemo.pem ec2-user@3.91.196.52
+   16  ssh-copy-id  ec2-user@3.91.196.52
+   17  ssh-copy-id -i /root/.ssh/id_rsa.pub ec2-user@3.91.196.52
+   18  ssh-copy-id -i /root/.ssh/id_rsa.pub root@3.91.196.52
+   19  ssh-copy-id -i /root/awsdemo.pem root@3.91.196.52
+   20  ssh-copy-id -i /root/awsdemo.pem ec2-user@3.91.196.52
+   21  cd .ssh/
+   22  ll
+   23  cat id_rsa.pub 
+   24  ssh -i /root/.ssh/id_rsa root@3.91.196.52
+   25  ls -l /root/awsdemo.pem
+   26  ssh -i /root/awsdemo.pem ec2-user@3.91.196.52
+   27  ssh-copy-id -i /root/awsdemo.pem ec2-user@3.91.196.52
+   28  pwd
+   29  exit
+   30  rpm -qa | grep -i tree
+   31  ls 
+   32  ls -lrt
+   33  cat .ssh/id_rsa.pub 
+   34  ssh 3.91.196.52
+   35  pwd
+   36  ssh 3.91.196.52
+   37  ping 18.223.131.40
+   38  pwd
+   39  ssh 18.223.131.40
+   40  ping 18.223.131.40
+   41  ssh 18.223.131.40
+   42  ping 18.223.131.40
+   43  ssh 18.223.131.40
+   44  ping 18.223.131.40
+   45  yum install telnet
+   46  telnet 18.223.131.40 22
+   47  ssh root@172.31.85.87
+   48  pwd
+   49  ll
+   50  cd /opt/
+   51  mkdir devops_data
+   52  ll
+   53  cd devops_data/
+   54  ll
+   55  wpd
+   56  pwd
+   57  git init
+   58  yum install git
+   59  git init
+   60  history 
+   61  history > linuxcommands.txt
